@@ -8,3 +8,7 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+
+-repackageclasses ''
+
+# (-repackageclasses) : Flattens your entire folder structure into a single directory, making your app smaller and harder to hack.
